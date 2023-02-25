@@ -2,10 +2,10 @@
   "name": "contactos",
   "description": "Payload project created from blank template",
   "version": "1.0.0",
-  "main": "dist/server.js",
+  "main": "server.js",
   "license": "MIT",
   "scripts": {
-    "start": "dist/server.js", 
+    "start": "server.js", 
     "dev": "cross-env PAYLOAD_CONFIG_PATH=src/payload.config.ts nodemon",
     "build:payload": "cross-env PAYLOAD_CONFIG_PATH=src/payload.config.ts payload build",
     "build:server": "tsc",
